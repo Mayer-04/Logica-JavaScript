@@ -11,7 +11,7 @@ const oddOrEven = (number) => {
 oddOrEven(4); // 4 es numero Par
 oddOrEven(5); // 5 es numero Impar
 
-/* Código para comprobar si un número es Primo ✅ */
+/* Código para comprobar si un número es Primo ✅ */ 
 
 const isPrime = (number) => {
   if (number > 1) {
