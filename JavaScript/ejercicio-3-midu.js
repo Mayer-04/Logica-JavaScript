@@ -13,6 +13,12 @@ function acabanEnA(words) {
   return true;
 }
 
+// Utilizando el método every
+
+function acabanEnA(words) {
+  return words.every((word) => word.endsWith("a"));
+}
+
 // Ejemplo de uso ✅
 
 const palabras = ["Hola", "Programa", "Celular", "Hoja", "Puerta"];
