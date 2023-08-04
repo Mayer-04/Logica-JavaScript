@@ -2,16 +2,27 @@
 
 const oddOrEven = (number) => {
   if (number % 2 === 0) {
-    return `${number} es numero Par`;
+    return `${number} es número Par`;
   } else {
-    return `${number} es numero Impar`;
+    return `${number} es número Impar`;
   }
 };
 
-oddOrEven(4); // 4 es numero Par
-oddOrEven(5); // 5 es numero Impar
+oddOrEven(4); // 4 es número Par
+oddOrEven(5); // 5 es número Impar
 
-/* Código para comprobar si un número es Primo ✅ */ 
+// Utilizando Operador Ternario - Número Par o Impar
+
+const oddEven = (number) => {
+  const result =
+    number % 2 === 0 ? `${number} es número Par` : `${number} es número Impar`;
+  return result;
+};
+
+oddEven(2); // 2 es número Par
+oddEven(3); // 3 es número Impar
+
+/* Código para comprobar si un número es Primo ✅ */
 
 const isPrime = (number) => {
   if (number > 1) {
