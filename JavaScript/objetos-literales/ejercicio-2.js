@@ -3,6 +3,15 @@
 Por ejemplo, para el objeto { a: true, b: 42, c: false } la función debe retornar ['a', 'c'] ya que son las dos propiedades que tienen valores booleanos. */
 
 function getKeysOfBooleanValues(obj) {
+  const objeto = Object.keys(obj);
+  const encontrarPropiedades = objeto.filter(
+    (key) => typeof obj[key] === "boolean"
+  );
+  return encontrarPropiedades;
+}
+
+// Forma simplificada 😁
+function getKeysOfBooleanValues(obj) {
   return Object.keys(obj).filter((key) => typeof obj[key] === "boolean");
 }
 
