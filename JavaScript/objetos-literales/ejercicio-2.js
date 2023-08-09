@@ -11,9 +11,21 @@ function getKeysOfBooleanValues(obj) {
 }
 
 // Forma simplificada 😁
-function getKeysOfBooleanValues(obj) {
+const getKeysOfBooleanValues = function (obj) {
   return Object.keys(obj).filter((key) => typeof obj[key] === "boolean");
-}
+};
+
+// Tercera manera de hacer el ejercicio 🤔
+const getKeysOfBooleanValues = (obj) => {
+  const propiedades = Object.keys(obj);
+  const arrayBooleanas = [];
+  for (let i = 0; i < propiedades.length; i++) {
+    if (typeof obj[propiedades[i]] === "boolean") {
+      arrayBooleanas.push(propiedades[i]);
+    }
+  }
+  return arrayBooleanas;
+};
 
 // Ejemplo de uso ✅
 const objeto = { a: true, b: 42, c: false };
