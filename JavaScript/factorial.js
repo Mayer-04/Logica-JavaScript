@@ -17,3 +17,9 @@ function numeroFactorial(numero) {
     return numero * numeroFactorial(numero - 1);
   }
 }
+
+// Ejemplo de uso ✅
+
+const numero = 6;
+const factorialDeNumero = numeroFactorial(numero);
+console.log(factorialDeNumero);
