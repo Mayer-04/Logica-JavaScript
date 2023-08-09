@@ -7,6 +7,16 @@ function sumaTotal(numeros) {
   return sumaElementos;
 }
 
+// Resolviendo el ejercicio sin el método reduce 😁
+
+const sumaNumeros = (numeros) => {
+  let numero = 0;
+  for (let i = 0; i < numeros.length; i++) {
+    numero += numeros[i];
+  }
+  return numero;
+};
+
 // Ejemplo de uso ✅
 const numeros = [1, 2, 3, 4, 76, 23, 87, 341, 0, 54];
 const SumaTotalNumeros = sumaTotal(numeros);
