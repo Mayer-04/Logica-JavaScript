@@ -1,5 +1,5 @@
 /* Encontrar el Mayor y Menor:  
-Escribe una función que tome un arreglo de números como parámetro y devuelva el número mayor y el número menor en ese arreglo.
+Escribe una función que tome un arreglo de números como parámetro y devuelva el número mayor en ese arreglo.
 */
 
 const numeroMayor = (numeros) => {
