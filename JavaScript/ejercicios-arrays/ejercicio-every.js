@@ -9,10 +9,10 @@ const mayoresDeEdad = function (mayor) {
 // Ejemplo de uso ✅
 
 const personas = [
-  { nombres: "Mayer", edad: 23 },
-  { nombres: "Andres", edad: 22 },
-  { nombres: "Lucas", edad: 20 },
-  { nombres: "Luis", edad: 50 },
+  { nombre: "Mayer", edad: 23 },
+  { nombre: "Andres", edad: 22 },
+  { nombre: "Lucas", edad: 20 },
+  { nombre: "Luis", edad: 50 },
 ];
 
 console.log(mayoresDeEdad(personas)); // devuelve true, todos cumplen la condición.
