@@ -27,6 +27,19 @@ const getKeysOfBooleanValues = (obj) => {
   return arrayBooleanas;
 };
 
+// Cuarta manera de hacer el ejercicio 😱
+function getKeysOfBooleanValues(obj) {
+  const convert = Object.entries(obj);
+  let nuevoArreglo = [];
+  for (let i = 0; i < convert.length; i++) {
+    const [key, value] = convert[i];
+    if (typeof value === "boolean") {
+      nuevoArreglo.push(key);
+    }
+  }
+  return nuevoArreglo;
+}
+
 // Ejemplo de uso ✅
 const objeto = { a: true, b: 42, c: false };
 const tipoBooleano = getKeysOfBooleanValues(objeto);
