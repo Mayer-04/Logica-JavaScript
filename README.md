@@ -4,8 +4,12 @@ Agregando ejercicios para practicar mi lógica de programación con JavaScript �
 
 **Descargar Dependencia**
 
-- pnpm install
+```bash
+pnpm install
+```
 
 **Verificar test**
 
-- pnpm run test
+```bash
+pnpm run test
+```
