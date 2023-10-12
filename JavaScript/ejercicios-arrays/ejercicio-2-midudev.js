@@ -22,6 +22,17 @@ function paresForEach(numeros) {
   return suma;
 }
 
+// Utilizando map ✅
+const paresMap = (numeros) => {
+  let suma = 0;
+  numeros.map((numero) => {
+    if (numero % 2 === 0) {
+      suma += numero;
+    }
+  });
+  return suma;
+};
+
 // Ejemplo de uso ✅
 
 const listaNumeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];

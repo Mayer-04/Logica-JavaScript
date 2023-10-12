@@ -6,6 +6,16 @@ const mayoresDeEdad = function (mayor) {
   return mayor.every((e) => e.edad > 18);
 };
 
+// Segunda manera de hacer el ejercicio 😁
+function mayorDeEdad(personas) {
+  for (let i = 0; i < personas.length; i++) {
+    if (personas[i].edad <= 18) {
+      return false;
+    }
+  }
+  return true;
+}
+
 // Ejemplo de uso ✅
 
 const personas = [
@@ -15,4 +25,4 @@ const personas = [
   { nombre: "Luis", edad: 50 },
 ];
 
-console.log(mayoresDeEdad(personas)); // devuelve true, todos cumplen la condición.
+console.log(mayorDeEdad(personas)); // devuelve true, todos cumplen la condición.
