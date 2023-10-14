@@ -6,7 +6,8 @@ function recuperarItem(item) {
   return itemRandoms;
 }
 
-const numeros = [1, 2, 3, 4, 5];
 const animales = ["🦁", "🐅", "🐆", "🐺"];
 
 console.log(recuperarItem(animales));
+
+module.exports = recuperarItem;
