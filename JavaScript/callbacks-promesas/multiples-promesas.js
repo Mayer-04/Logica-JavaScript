@@ -28,5 +28,6 @@ const promesa3 = new Promise((resolve, _reject) => {
 const resolviendoPromesas = Promise.allSettled([promesa1, promesa2, promesa3]);
 
 resolviendoPromesas
+  // Tambien se puede desestructurar el results = [promesa1, promesa2, promesa3]
   .then((results) => console.log(results))
   .catch((error) => console.error(error));
