@@ -18,3 +18,17 @@ function createObject(name, subs) {
   };
   return twitch;
 }
+
+// Utilizando this ✅
+
+const createObject = (name, subs) => {
+  const twitch = {
+    name,
+    subscribers: subs,
+    hash: name.length * subs,
+    getStatus() {
+      return `El canal de ${this.name} tiene ${this.subscribers} suscriptores`;
+    },
+  };
+  return twitch;
+};
