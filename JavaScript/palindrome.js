@@ -17,3 +17,30 @@ const palabra3 = "lenguaje";
 console.log(palindrome(palabra));
 console.log(palindrome(palabra2));
 console.log(palindrome(palabra3));
+
+// Sin utilizar métodos 🤔
+
+const palabraPalindrome = (cadena) => {
+  cadena = cadena.toLowerCase().replace(/\s/g, "");
+
+  if (!cadena) {
+    return null;
+  }
+
+  let palabra = "";
+  let arr = [];
+
+  for (let i = 0; i < cadena.length; i++) {
+    arr = [...arr, ...cadena[i]];
+  }
+
+  for (let i = arr.length - 1; i >= 0; i--) {
+    palabra += arr[i];
+  }
+
+  return cadena === palabra;
+};
+
+console.log(palabraPalindrome("  OSO  "));
+console.log(palabraPalindrome(palabra2));
+console.log(palabraPalindrome(palabra3));
