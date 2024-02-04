@@ -8,27 +8,33 @@ Crea una función que reciba dos array, un booleano y retorne un array.
  *
  * @param {number[]} arr1
  * @param {number[]} arr2
- * @param {boolean} bool
+ * @returns
  */
+function obtenerElementosComunes(arr1, arr2) {
+  return arr1.filter((elemento) => arr2.includes(elemento));
+}
 
-const obtenerElementosComunes = (arr1, arr2, bool) => {
+/**
+ *
+ * @param {number[]} arr1
+ * @param {number[]} arr2
+ * @returns
+ */
+const obtenerElementosNoComunes = (arr1, arr2) => {
   const unionOfArray = arr1.concat(arr2);
-
-  if (bool) {
-    const elementosComunes = arr1.filter((elemento) => arr2.includes(elemento));
-    return elementosComunes;
-  } else {
-    const noComunes = unionOfArray.filter(
-      (elemento) => !arr1.includes(elemento) || !arr2.includes(elemento)
-    );
-    return noComunes;
-  }
+  return unionOfArray.filter(
+    (elemento) => !arr1.includes(elemento) || !arr2.includes(elemento)
+  );
 };
 
 const numeros1 = [1, 2, 3, 4, 5, 6];
 const numeros2 = [2, 4, 6, 8, 9];
 
-obtenerElementosComunes(numeros1, numeros2, true);
+const elementosComunes = obtenerElementosComunes(numeros1, numeros2);
+const elementosNoComunes = obtenerElementosNoComunes(numeros1, numeros2);
+
+console.log("Elementos comunes:", elementosComunes);
+console.log("Elementos no comunes:", elementosNoComunes);
 
 // Segunda manera de realizar el ejercicio ✅
 
