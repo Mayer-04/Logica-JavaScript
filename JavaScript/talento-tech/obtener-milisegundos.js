@@ -12,11 +12,11 @@
  */
 
 // TODO: Función de expresión - Función anónima
-const getMilliseconds = ({ day, hour, minutes, seconds }) => {
-  const DAY_IN_MILLISECONDS = day * 24 * 60 * 60 * 1000;
-  const HOUR_IN_MILLISECONDS = hour * 60 * 60 * 1000;
-  const MINUTES_IN_MILLISECONDS = minutes * 60 * 1000;
-  const SECONDS_IN_MILLISECONDS = seconds * 1000;
+const getMilliseconds = function ({ day, hour, minutes, seconds }) {
+  const DAY_IN_MILLISECONDS = day * 24 * 60 * 60 * 1_000;
+  const HOUR_IN_MILLISECONDS = hour * 60 * 60 * 1_000;
+  const MINUTES_IN_MILLISECONDS = minutes * 60 * 1_000;
+  const SECONDS_IN_MILLISECONDS = seconds * 1_000;
 
   return {
     day: DAY_IN_MILLISECONDS,
