@@ -9,5 +9,8 @@
   },
   "keywords": [],
   "author": "Mayer Andrés Chaves Prada",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "vitest": "^1.2.2"
+  }
 }
