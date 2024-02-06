@@ -1,6 +1,6 @@
 // Recupera aleatoriamente un item de un arreglo
 
-function recuperarItem(item) {
+export function recuperarItem(item) {
   const recuperar = Math.floor(Math.random() * item.length);
   const itemRandoms = item[recuperar];
   return itemRandoms;
@@ -9,5 +9,3 @@ function recuperarItem(item) {
 const animales = ["🦁", "🐅", "🐆", "🐺"];
 
 console.log(recuperarItem(animales));
-
-module.exports = recuperarItem;
