@@ -1,15 +1,15 @@
 # Logica-JavaScript
 
-Agregando ejercicios para practicar mi lógica de programación con JavaScript 😁.
+Agregando ejercicios para practicar mi lógica de programación con JavaScript y Node.js 😁
 
-**Descargar Dependencia**
+## Descargar Dependencias
 
 ```bash
 pnpm install
 ```
 
-**Verificar test**
+### Verificar los test
 
 ```bash
-pnpm run test
+pnpm test
 ```
