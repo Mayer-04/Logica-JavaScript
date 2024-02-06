@@ -3,13 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "jest"
+    "test": "vitest"
   },
   "keywords": [],
   "author": "Mayer Andrés Chaves Prada",
-  "license": "ISC",
-  "devDependencies": {
-    "jest": "^29.7.0"
-  }
+  "license": "ISC"
 }
