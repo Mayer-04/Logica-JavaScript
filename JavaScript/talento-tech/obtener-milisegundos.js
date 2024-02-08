@@ -1,7 +1,7 @@
 /**
  * @typedef {Object} TimeParams
- * @property {number} day
- * @property {number} hour
+ * @property {number} days
+ * @property {number} hours
  * @property {number} minutes
  * @property {number} seconds
  */
@@ -11,19 +11,18 @@
  * @returns {number}
  */
 
-// TODO: Función de expresión - Función anónima
-const getMilliseconds = function ({ day, hour, minutes, seconds }) {
-  const DAY_IN_MILLISECONDS = day * 24 * 60 * 60 * 1_000;
-  const HOUR_IN_MILLISECONDS = hour * 60 * 60 * 1_000;
-  const MINUTES_IN_MILLISECONDS = minutes * 60 * 1_000;
-  const SECONDS_IN_MILLISECONDS = seconds * 1_000;
+const convertMilliseconds = function ({ days, hours, minutes, seconds }) {
+  const daysInMilliseconds = days * 24 * 60 * 60 * 1_000;
+  const hoursInMilliseconds = hours * 60 * 60 * 1_000;
+  const minutesInMilliseconds = minutes * 60 * 1_000;
+  const secondsInMilliseconds = seconds * 1_000;
 
   return {
-    day: DAY_IN_MILLISECONDS,
-    hour: HOUR_IN_MILLISECONDS,
-    minutes: MINUTES_IN_MILLISECONDS,
-    seconds: SECONDS_IN_MILLISECONDS,
+    days: daysInMilliseconds,
+    hours: hoursInMilliseconds,
+    minutes: minutesInMilliseconds,
+    seconds: secondsInMilliseconds,
   };
 };
 
-console.log(getMilliseconds({ day: 1, hour: 2, minutes: 3, seconds: 4 }));
+console.log(convertMilliseconds({ days: 1, hours: 2, minutes: 3, seconds: 4 }));

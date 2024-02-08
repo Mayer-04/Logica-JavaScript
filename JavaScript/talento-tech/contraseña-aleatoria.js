@@ -1,7 +1,6 @@
 /*
 TODO: Implementa una función que genera contraseñas aleatorias basadas en ciertos criterios. La función debe aceptar parámetros como la longitud de la contraseña y los tipos de caracteres permitidos (mayúsculas, minúsculas, números y caracteres especiales).
 */
-
 const getCharacters = {
   minusculas: "abcdefghijklmnopqrstuvwxyz",
   mayusculas: "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
@@ -10,10 +9,17 @@ const getCharacters = {
 };
 
 /**
- *
+ * @typedef {Object} Options
+ * @property {boolean} uppercase
+ * @property {boolean} lowercase
+ * @property {boolean} numbers
+ * @property {boolean} specials
+ */
+
+/**
  * @param {number} length
- * @param {object} options
- * @returns
+ * @param {Options} options
+ * @returns {string}
  */
 
 function generatePassword(length = 8, options = {}) {
@@ -34,7 +40,6 @@ function generatePassword(length = 8, options = {}) {
 
   optionsEntries.forEach(([key, value]) => {
     if (value) password += charSets[key];
-    console.log(password);
   });
 
   let passwordGenerator = "";
