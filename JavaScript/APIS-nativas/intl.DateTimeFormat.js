@@ -12,4 +12,4 @@ let formatoFechaHora = new Intl.DateTimeFormat("es-CO", {
 // Formatear la fecha y hora actual
 let fechaHoraFormateada = formatoFechaHora.format(fechaActual);
 
-console.log(fechaHoraFormateada);
+console.log(fechaHoraFormateada); // lunes, 12 de febrero de 2024, 12:30 p. m.
