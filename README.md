@@ -1,4 +1,4 @@
-# Ejercicios Logica-JavaScript 😁
+# Ejercicios Lógica-JavaScript 😁
 
 Este repositorio contiene una colección de ejercicios diseñados para mejorar tus habilidades de programación lógica utilizando JavaScript y Node.js.
 
@@ -6,7 +6,7 @@ Este repositorio contiene una colección de ejercicios diseñados para mejorar t
 
 Los ejercicios abarcan una amplia gama de temas, desde conceptos básicos hasta desafíos avanzados, y están diseñados para ayudar a mejorar las habilidades en la resolución de problemas y la implementación de algoritmos en JavaScript.
 
-### Temas
+## Ejercicios:
 
 1. Estructuras de control (if, else)
 2. Bucles (for, while)
