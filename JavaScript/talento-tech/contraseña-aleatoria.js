@@ -1,5 +1,7 @@
 /*
-TODO: Implementa una función que genera contraseñas aleatorias basadas en ciertos criterios. La función debe aceptar parámetros como la longitud de la contraseña y los tipos de caracteres permitidos (mayúsculas, minúsculas, números y caracteres especiales).
+Implementa una función que genera contraseñas aleatorias basadas en ciertos criterios. 
+La función debe aceptar parámetros como la longitud de la contraseña y los tipos de caracteres permitidos 
+(mayúsculas, minúsculas, números y caracteres especiales).
 */
 const getCharacters = {
   minusculas: "abcdefghijklmnopqrstuvwxyz",

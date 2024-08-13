@@ -1,5 +1,6 @@
 /* 
-Unión de arrays: Escribe una función que tome dos arrays y devuelva un nuevo array que sea la unión de ambos, eliminando duplicados.
+Unión de arrays: Escribe una función que tome dos arrays y devuelva un nuevo array que sea la unión de ambos, 
+eliminando duplicados.
 */
 
 const unionArreglos = (array1, array2) => {

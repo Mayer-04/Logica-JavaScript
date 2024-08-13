@@ -3,7 +3,6 @@
  * @param {number[]} list
  * @returns {object}
  */
-//
 
 const listNumbers = function (list) {
   let ceros = [];

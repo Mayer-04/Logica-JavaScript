@@ -7,7 +7,7 @@
  */
 
 /**
- * @param {TimeParams} params
+ * @param {TimeParams}
  * @returns {number}
  */
 

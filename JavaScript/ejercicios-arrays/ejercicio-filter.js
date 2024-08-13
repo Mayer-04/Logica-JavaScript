@@ -8,7 +8,6 @@ const elementosPares = (pares) => {
 };
 
 // Resolviendo el ejercicio sin el método filter 😁
-
 function retornarNumerosPares(numeros) {
   let numerosPares = [];
   for (let i = 0; i < numeros.length; i++) {

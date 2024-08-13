@@ -20,7 +20,6 @@ const cadenaMasLarga = function (cadena) {
 console.log(cadenaMasLarga("Esto es una cadena de texto de ejemplo"));
 
 // Segunda manera de realizar el ejercicio ✅
-
 const cadenaLarga = (cadena) => {
   const convertir = cadena.split(" ");
 

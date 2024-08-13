@@ -1,4 +1,7 @@
-/* Implementa una función en JavaScript llamada reverseArray que tome un array como argumento y devuelva un nuevo array con los elementos en orden inverso. No puedes utilizar metodos de array para resolver este ejercicio.*/
+/* 
+Implementa una función en JavaScript llamada reverseArray que tome un array como argumento y devuelva un nuevo array
+ con los elementos en orden inverso. No puedes utilizar metodos de array para resolver este ejercicio.
+*/
 
 const reverseString = (arreglo) => {
   let arr = [];
@@ -10,6 +13,5 @@ const reverseString = (arreglo) => {
 };
 
 // Ejemplo de uso ✅
-
 const palabra = ["Avion", "Carro", "Moto"];
 console.log(reverseString(palabra));

@@ -5,6 +5,5 @@ function unique(arr) {
 }
 
 // Ejemplo de uso ✅
-
 const palabras = ["hola", "hola", "saludo", "tienda", "casa", "tienda"];
 console.log(unique(palabras));

@@ -1,6 +1,7 @@
 /* 
 Ejercicio:
-Dado un array de números, tu objetivo es utilizar el método find para encontrar el primer número que sea mayor que 10. Debes escribir una función que tome como argumento el array de números y devuelva el número encontrado.
+Dado un array de números, tu objetivo es utilizar el método find para encontrar el primer número que sea mayor
+que 10. Debes escribir una función que tome como argumento el array de números y devuelva el número encontrado.
 */
 
 function mayorDiez(numero) {

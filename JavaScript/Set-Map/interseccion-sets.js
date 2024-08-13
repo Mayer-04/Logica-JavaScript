@@ -1,4 +1,7 @@
-/* Define dos sets con algunos elementos comunes y crea una función que tome estos dos sets como entrada y devuelva un nuevo set que contenga solo los elementos que están presentes en ambos sets. */
+/* 
+Define dos sets con algunos elementos comunes y crea una función que tome estos dos sets como entrada
+y devuelva un nuevo set que contenga solo los elementos que están presentes en ambos sets. 
+*/
 
 function interseccionSet(set1, set2) {
   const nuevoSet = new Set();

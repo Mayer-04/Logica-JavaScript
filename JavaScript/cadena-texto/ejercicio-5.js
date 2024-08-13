@@ -1,5 +1,6 @@
 /* 
-Programa una función que dada una cadena de texto cuente el número de vocales y consonantes. miFuncion("Hola Mundo") devuelva Vocales: 4, Consonantes: 5.
+Programa una función que dada una cadena de texto cuente el número de vocales y consonantes. 
+miFuncion("Hola Mundo") devuelva Vocales: 4, Consonantes: 5.
 */
 
 function vocalesConsonantes(texto) {

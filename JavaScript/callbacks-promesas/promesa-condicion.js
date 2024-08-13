@@ -1,4 +1,7 @@
-// Objetivo: Escribir una función que devuelva una promesa que se resuelva si se cumple una cierta condición, y se rechace si no se cumple.
+/* 
+Objetivo: Escribir una función que devuelva una promesa que se resuelva si se cumple una cierta condición, 
+y se rechace si no se cumple.
+*/
 
 function promesaConCondicion(condicion) {
   return new Promise((resolve, reject) => {

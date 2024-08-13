@@ -1,4 +1,7 @@
-/* Crea un mapa que almacene nombres de ciudades como claves y sus respectivas temperaturas actuales como valores. Luego, escribe una función que reciba el mapa y devuelva la ciudad con la temperatura más alta. */
+/* 
+Crea un mapa que almacene nombres de ciudades como claves y sus respectivas temperaturas actuales como valores. 
+Luego, escribe una función que reciba el mapa y devuelva la ciudad con la temperatura más alta. 
+*/
 
 const ciudades = new Map();
 
@@ -28,7 +31,6 @@ const ciudadMasCaliente = (map) => {
 console.log(ciudadMasCaliente(ciudades));
 
 // Segunda forma de resolver el ejercicio 🤔
-
 function ciudadMasCaliente(map) {
   const temperaturas = [...map.values()];
   const temperaturaMasAlta = Math.max(...temperaturas);

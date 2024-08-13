@@ -1,4 +1,7 @@
-/* Escribe una función que tome una cadena como entrada y devuelva una nueva cadena que sea idéntica a la original, excepto que elimine los caracteres en las posiciones impares. */
+/* 
+Escribe una función que tome una cadena como entrada y devuelva una nueva cadena que sea idéntica a la original, 
+excepto que elimine los caracteres en las posiciones impares. 
+*/
 
 function eliminarCaracteresImpares(cadena) {
   let nuevaCadena = "";
@@ -15,7 +18,6 @@ function eliminarCaracteresImpares(cadena) {
 console.log(eliminarCaracteresImpares("Andres"));
 
 // Segunda manera de realizar el ejercicio ✅
-
 function eliminarCaracteresImpares(cadena) {
   const nuevaCadena = cadena.split("");
   const cadenaFiltrada = nuevaCadena

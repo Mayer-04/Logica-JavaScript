@@ -1,3 +1,20 @@
+/**
+ * @typedef {Object} operations
+ * @property {number} suma
+ * @property {number} resta
+ * @property {number} multiplicacion
+ * @property {number} division
+ * @property {number} resto
+ * @property {number} exponente
+ */
+
+/**
+ * Suma, resta, multiplicación, división, resto, exponente
+ *
+ * @param {number} number
+ * @return {operations}
+ */
+
 const multiplesOperations = (number) => {
   const convertString = number.toString();
 
@@ -7,8 +24,8 @@ const multiplesOperations = (number) => {
   let reverseNumbers = "";
 
   for (let i = convertString.length - 1; i >= 0; i--) {
-    const resultado = convertString[i];
-    reverseNumbers += resultado;
+    const result = convertString[i];
+    reverseNumbers += result;
   }
 
   console.log("Numeros invertidos:", Number(reverseNumbers));

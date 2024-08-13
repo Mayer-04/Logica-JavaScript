@@ -1,6 +1,7 @@
 /* 
 Crea una función llamada consultarAPI que tome una URL como argumento y devuelva una promesa. 
-La promesa debe resolver con la respuesta de la API si la solicitud fue exitosa, o rechazar con un error si hubo un problema.
+La promesa debe resolver con la respuesta de la API si la solicitud fue exitosa, o rechazar con un error
+si hubo un problema.
 */
 
 function consultarAPI(url) {

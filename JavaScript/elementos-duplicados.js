@@ -1,17 +1,27 @@
-//  Eliminar Duplicados: Crea una función que tome un arreglo como entrada y devuelva un nuevo arreglo sin elementos duplicados. Sin utilizar new Set().
+/* 
+Eliminar Duplicados: 
+Crea una función que tome un arreglo como entrada y devuelva un nuevo arreglo sin elementos duplicados.
+Sin utilizar new Set().
+*/
 
-function elementosDuplicados(numeros) {
+/**
+ *
+ * @param {Array<string>} arr
+ * @returns {Array<string>}
+ */
+
+function elementosDuplicados(arr) {
   let duplicados = [];
-  for (let i = 0; i < numeros.length; i++) {
-    if (duplicados.indexOf(numeros[i]) === -1) {
-      duplicados.push(numeros[i]);
+  for (let i = 0; i < arr.length; i++) {
+    if (duplicados.indexOf(arr[i]) === -1) {
+      duplicados.push(arr[i]);
     }
   }
   return duplicados;
 }
 
 // Ejemplo de uso ✅
-const numeros = [
+const nombres = [
   "Andres",
   "Juan",
   "Andres",
@@ -20,4 +30,4 @@ const numeros = [
   "Juan",
   "Sofia",
 ];
-console.log(elementosDuplicados(numeros));
+console.log(elementosDuplicados(nombres));

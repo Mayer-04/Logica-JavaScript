@@ -37,7 +37,6 @@ console.log("Elementos comunes:", elementosComunes);
 console.log("Elementos no comunes:", elementosNoComunes);
 
 // Segunda manera de realizar el ejercicio ✅
-
 function obtenerElementosComunes(arr1, arr2, bool) {
   const comunes = new Set();
   const noComunes = new Set();

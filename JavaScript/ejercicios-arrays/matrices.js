@@ -1,5 +1,7 @@
 /* 
-Recibimos una matriz de cadenas de texto. Tenemos que localizar la posición de la palabra "JavaScript" en la matriz y devolver su posición como un array de dos elementos: el índice de la fila y el índice de la columna.
+Recibimos una matriz de cadenas de texto. 
+Tenemos que localizar la posición de la palabra "JavaScript" en la matriz y devolver su posición como un array 
+de dos elementos: el índice de la fila y el índice de la columna.
 
 Si no encuentra la palabra debe devolver [-1, -1].
 
@@ -31,7 +33,6 @@ function findJavaScript(matrix) {
 }
 
 // Segunda manera de realizar el ejercicio 😁
-
 const findJavaScript = function (matrix) {
   for (let i = 0; i < matrix.length; i++) {
     for (let j = 0; j < matrix[i].length; j++) {

@@ -3,7 +3,7 @@ Escribe una función que tome un arreglo de números como parámetro y devuelva 
 */
 
 const numeroMayor = (numeros) => {
-  // Asumimos que el numero mayor es el primer elemento del Array
+  // Asumimos que el numero mayor es el primer elemento del arreglo
   let mayor = numeros[0];
   for (let i = 0; i < numeros.length; i++) {
     if (numeros[i] > mayor) {
@@ -14,7 +14,6 @@ const numeroMayor = (numeros) => {
 };
 
 // Utilizando el método Math.max() ✅
-
 function devolverMayor(numeros) {
   // Hacemos un spread del arreglo de números
   return Math.max(...numeros);

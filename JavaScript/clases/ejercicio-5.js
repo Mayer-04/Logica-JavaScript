@@ -1,6 +1,8 @@
-/*Contador de Instancias
-
-Crea una clase Contador que tenga una propiedad estática llamada contador que llevará la cuenta de cuántas instancias de la clase se han creado. Además, la clase deberá tener un constructor que incremente el contador en uno cada vez que se crea una nueva instancia.
+/*
+Contador de Instancias:
+Crea una clase Contador que tenga una propiedad estática llamada contador que llevará la cuenta de cuántas
+instancias de la clase se han creado.
+La clase deberá tener un constructor que incremente el contador en uno cada vez que se crea una nueva instancia.
 */
 
 class Contador {

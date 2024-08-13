@@ -9,7 +9,6 @@ const calcularFactorial = function (numero) {
 };
 
 // Utilizando Recursividad ✅
-
 function numeroFactorial(numero) {
   if (numero === 0) {
     return 1;
@@ -19,7 +18,6 @@ function numeroFactorial(numero) {
 }
 
 // Ejemplo de uso ✅
-
 const numero = 6;
 const factorialDeNumero = numeroFactorial(numero);
 console.log(factorialDeNumero);

@@ -1,8 +1,12 @@
-/*Crea dos funciones:
+/*
+Crea dos funciones:
 
-getResolvedPromise: Esta función debe devolver una promesa que se resuelva después de 2 segundos con el mensaje "Promesa resuelta".
-getRejectedPromise: Esta función debe devolver una promesa que se rechace después de 1 segundo con el mensaje "Promesa rechazada".
-Usa Promise.allSettled con llamadas a estas funciones. Luego, imprime los resultados.
+- getResolvedPromise: 
+Esta función debe devolver una promesa que se resuelva después de 2 segundos con el mensaje "Promesa resuelta".
+- getRejectedPromise: 
+Esta función debe devolver una promesa que se rechace después de 1 segundo con el mensaje "Promesa rechazada".
+
+- Usa Promise.allSettled con llamadas a estas funciones. Luego, imprime los resultados.
 */
 
 function getResolvedPromise() {

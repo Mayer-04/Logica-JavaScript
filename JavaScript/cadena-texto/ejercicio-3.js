@@ -1,5 +1,7 @@
-/* Programa una función para contar el número de veces que se repite una palabra en un texto largo. 
-miFuncion("hola mundo adios mundo", "mundo") devolverá 2. */
+/* 
+Programa una función para contar el número de veces que se repite una palabra en un texto largo. 
+miFuncion("hola mundo adios mundo", "mundo") devolverá 2. 
+*/
 
 function contarPalabra(texto, palabra) {
   let palabras = texto.split(" ");

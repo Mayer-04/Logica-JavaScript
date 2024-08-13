@@ -1,5 +1,6 @@
 /* Crea una función que reciba un array de nombres y una cadena de texto. 
-La función debe devolver un nuevo array con aquellos nombres que terminen con la cadena de texto proporcionada. */
+La función debe devolver un nuevo array con aquellos nombres que terminen con la cadena de texto proporcionada.
+*/
 
 /**
  *
@@ -17,7 +18,6 @@ const nombres = ["Mayer", "Andres", "Luis", "Carlos"];
 console.log(retornarNombres(nombres, "s"));
 
 // Segunda manera de resolver el ejercicio ✅
-
 function retornarNombres(arr, cadena) {
   let nombresQueTerminan = [];
 

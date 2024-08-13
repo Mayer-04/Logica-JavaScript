@@ -1,5 +1,7 @@
 /* 
-Escribe una función que determine si una palabra o frase es un palíndromo. Un palíndromo es una palabra, frase, número o cualquier otra secuencia de caracteres que se lee de la misma manera hacia adelante y hacia atrás (ignorando espacios, signos de puntuación y mayúsculas o minúsculas).
+Escribe una función que determine si una palabra o frase es un palíndromo. 
+Un palíndromo es una palabra, frase, número o cualquier otra secuencia de caracteres que se lee 
+de la misma manera hacia adelante y hacia atrás (ignorando espacios, signos de puntuación y mayúsculas o minúsculas).
 */
 
 function palindrome(cadena) {
@@ -19,7 +21,6 @@ console.log(palindrome(palabra2));
 console.log(palindrome(palabra3));
 
 // Sin utilizar métodos 🤔
-
 export const palabraPalindrome = (cadena) => {
   if (!cadena) {
     return null;

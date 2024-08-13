@@ -27,7 +27,6 @@ const promesa3 = new Promise((resolve, _reject) => {
 });
 
 // Async/Await ✅
-
 async function resolviendoPromesas() {
   try {
     const [promesaOne, promesaTwo, promesaThree] = await Promise.all([

@@ -24,7 +24,6 @@ const fizzBuzz = () => {
 fizzBuzz();
 
 // Utilizando While 😁
-
 const fizzBuzzWhile = () => {
   let i = 1;
   while (i <= 100) {

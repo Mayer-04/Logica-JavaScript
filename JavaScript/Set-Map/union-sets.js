@@ -1,4 +1,7 @@
-/* Crea dos sets con valores únicos y escribe una función que tome estos dos sets como parámetros y devuelva un nuevo set que contenga la unión de ambos, es decir, todos los elementos distintos de ambos sets. */
+/* 
+Crea dos sets con valores únicos y escribe una función que tome estos dos sets como parámetros 
+y devuelva un nuevo set que contenga la unión de ambos, es decir, todos los elementos distintos de ambos sets. 
+*/
 
 const unionSets = (set1, set2) => {
   const nuevoSet = new Set();
@@ -16,7 +19,6 @@ const segundoSet = new Set([4, 5, 6]);
 console.log(unionSets(primerSet, segundoSet));
 
 // Segunda forma de realizar el ejercicio ✅
-
 function unionDeSets(set1, set2) {
   let unionSet = new Set();
 

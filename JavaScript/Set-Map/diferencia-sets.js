@@ -1,4 +1,7 @@
-/* Crea dos sets y escribe una función que devuelva un nuevo set que contenga los elementos que están presentes en el primer set pero no en el segundo */
+/* 
+Crea dos sets y escribe una función que devuelva un nuevo set que contenga los elementos 
+que están presentes en el primer set pero no en el segundo
+*/
 
 const diferenciaSets = function (set1, set2) {
   const nuevoSet = new Set();
