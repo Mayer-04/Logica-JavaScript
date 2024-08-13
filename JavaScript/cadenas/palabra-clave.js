@@ -14,7 +14,7 @@ function palabraClave(cadena, clave) {
 
 console.log(palabraClave("Mayer", "YER"));
 
-// Segunda manera de realizar el ejercicio
+// Segunda manera de realizar el ejercicio ✅
 function palabraClave(cadena, clave) {
   const regex = new RegExp(clave, "i");
   return regex.test(cadena);

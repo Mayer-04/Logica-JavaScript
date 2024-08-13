@@ -1,5 +1,5 @@
 // Obtener la fecha y hora actual
-let fechaActual = new Date();
+const fechaActual = new Date();
 
 // Formatear la fecha y hora según la configuración regional del usuario
 let formatoFechaHora = new Intl.DateTimeFormat("es-CO", {
@@ -10,6 +10,5 @@ let formatoFechaHora = new Intl.DateTimeFormat("es-CO", {
 });
 
 // Formatear la fecha y hora actual
-let fechaHoraFormateada = formatoFechaHora.format(fechaActual);
-
-console.log(fechaHoraFormateada); // lunes, 12 de febrero de 2024, 12:30 p. m.
+const fechaHoraFormateada = formatoFechaHora.format(fechaActual);
+console.log(fechaHoraFormateada); // Output: martes, 13 de agosto de 2024, 12:06 p. m.

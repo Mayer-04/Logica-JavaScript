@@ -20,5 +20,22 @@ const obtenerParametros = (url) => {
 };
 
 const url = "https://retosdeprogramacion.com?year=2023&challenge=0";
-
 console.log(obtenerParametros(url));
+
+/**
+ *
+ * @param {string} url
+ * @return {[]string}
+ */
+// Segunda manera de realizar el ejercicio ✅
+const getUrlParameters = (url) => {
+  // Se omite el primer elemento en la desestructuración
+  const [, queryString] = url.split("?");
+  const parameters = queryString.split("&");
+  return parameters.map((parameter) => {
+    const [, value] = parameter.split("=");
+    return value;
+  });
+};
+
+console.log(getUrlParameters(url));

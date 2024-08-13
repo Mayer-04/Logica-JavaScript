@@ -15,5 +15,4 @@ function contarPalabra(texto, palabra) {
 }
 
 // Ejemplo de uso 😁
-
 console.log(contarPalabra("hola mundo adios mundo", "mundo"));

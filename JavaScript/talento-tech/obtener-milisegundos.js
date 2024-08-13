@@ -1,3 +1,7 @@
+/*
+  Ejercicio: Obtener milisegundos de los tiempos: día, hora, minuto y segundo
+*/
+
 /**
  * @typedef {Object} TimeParams
  * @property {number} days
