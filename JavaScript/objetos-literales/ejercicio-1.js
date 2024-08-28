@@ -1,4 +1,5 @@
-/* Tenemos una función que recibe dos parámetros. name y subs. 
+/* 
+Tenemos una función que recibe dos parámetros: name y subs. 
 Haz que la función devuelva un objeto con la siguiente información:
 
 - name con el valor del parámetro name

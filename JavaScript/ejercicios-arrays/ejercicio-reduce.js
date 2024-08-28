@@ -7,8 +7,7 @@ function sumaTotal(numeros) {
   return sumaElementos;
 }
 
-// Resolviendo el ejercicio sin el método reduce 😁
-
+// Resolviendo el ejercicio sin el método reduce ✅
 const sumaNumeros = (numeros) => {
   let numero = 0;
   for (let i = 0; i < numeros.length; i++) {

@@ -1,6 +1,6 @@
 /* 
 Dado un array de strings, tu tarea es utilizar el método some para determinar si al menos uno de los elementos
- en el array tiene más de 5 caracteres. Debes escribir una función que tome como argumento el array de strings 
+en el array tiene más de 5 caracteres. Debes escribir una función que tome como argumento el array de strings 
 y devuelva un valor booleano que indique si se cumple la condición.
 */
 

@@ -1,4 +1,5 @@
-/* Dado un array de palabras, crea una función que devuelva un nuevo array 
+/* 
+Dado un array de palabras, crea una función que devuelva un nuevo array 
 con la longitud de cada palabra. 
 */
 

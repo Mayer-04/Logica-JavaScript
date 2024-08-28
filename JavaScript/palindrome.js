@@ -11,7 +11,6 @@ function palindrome(cadena) {
 }
 
 // Ejemplo de uso 😁
-
 const palabra = "oso";
 const palabra2 = "ana";
 const palabra3 = "lenguaje";
@@ -20,29 +19,23 @@ console.log(palindrome(palabra));
 console.log(palindrome(palabra2));
 console.log(palindrome(palabra3));
 
-// Sin utilizar métodos 🤔
-export const palabraPalindrome = (cadena) => {
-  if (!cadena) {
+// Sin utilizar métodos ✅
+export const isPalindrome = (text) => {
+  if (!text) {
     return null;
   }
 
-  const cadenaLimpia = cadena.toLowerCase().replace(/\s/g, "");
+  const cleanText = text.toLowerCase().replace(/\s/g, "");
 
-  let palabra = "";
-  let arr = [];
-
-  for (let i = 0; i < cadenaLimpia.length; i++) {
-    arr = [...arr, ...cadenaLimpia[i]];
+  let reversedText = "";
+  for (let char of cleanText) {
+    reversedText = char + reversedText;
   }
 
-  for (let i = arr.length - 1; i >= 0; i--) {
-    palabra += arr[i];
-  }
-
-  return cadenaLimpia === palabra;
+  return cleanText === reversedText;
 };
 
-console.log(palabraPalindrome("  OSO  "));
-console.log(palabraPalindrome(palabra2));
-console.log(palabraPalindrome(palabra3));
-console.log(palabraPalindrome());
+console.log(isPalindrome("  OSO  "));
+console.log(isPalindrome(palabra2));
+console.log(isPalindrome(palabra3));
+console.log(isPalindrome());

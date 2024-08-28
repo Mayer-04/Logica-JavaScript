@@ -1,4 +1,5 @@
-/* Crear una Clase para un Estudiante.
+/* 
+Crear una Clase para un Estudiante.
 Crea una clase llamada Estudiante con las propiedades nombre, edad y carrera. 
 Implementa métodos get y set para cada una de estas propiedades. Además, añade un método esMayorDeEdad 
 que devuelva true si el estudiante es mayor de 18 años y false en caso contrario.

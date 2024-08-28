@@ -3,7 +3,6 @@
  * @param {number} i
  * @returns {object}
  */
-
 const multiples = (i) => {
   return {
     multiple15: i % 15 === 0,

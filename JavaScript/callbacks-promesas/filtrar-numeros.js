@@ -1,4 +1,5 @@
-/* Crea una función llamada filtrarPares que tome una matriz de números y un callback como argumentos. 
+/* 
+Crea una función llamada filtrarPares que tome una matriz de números y un callback como argumentos. 
 La función debería filtrar los números pares de la matriz y luego llamar al callback con el nuevo arreglo.
 */
 

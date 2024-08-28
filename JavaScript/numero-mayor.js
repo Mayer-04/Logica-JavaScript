@@ -1,4 +1,5 @@
-/* Encontrar el Mayor y Menor:  
+/* 
+Encontrar el Mayor y Menor:  
 Escribe una función que tome un arreglo de números como parámetro y devuelva el número mayor en ese arreglo.
 */
 

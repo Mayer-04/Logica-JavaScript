@@ -1,4 +1,5 @@
-/* Crear una Clase para una Cuenta Bancaria
+/* 
+Crear una Clase para una Cuenta Bancaria
 Crea una clase llamada CuentaBancaria con las propiedades saldo y nombreTitular. 
 Los métodos get deben devolver el saldo actual y el nombre del titular, respectivamente. 
 Los métodos set deben permitir actualizar tanto el saldo como el nombre del titular.

@@ -1,5 +1,7 @@
-// Promedio de Números Pares:
-// Escribir una función que calcule el promedio de los números pares en un array.
+/* 
+Promedio de Números Pares:
+Escribir una función que calcule el promedio de los números pares en un array.
+*/
 
 function calcularPromedioPares(arr) {
   let sumaPares = 0;

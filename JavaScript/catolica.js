@@ -10,14 +10,11 @@
 
 /**
  * Suma, resta, multiplicación, división, resto, exponente
- *
  * @param {number} number
  * @return {operations}
  */
-
 const multiplesOperations = (number) => {
   const convertString = number.toString();
-
   const firstDigit = Number(convertString[0]);
   const secondDigit = Number(convertString[1]);
 
@@ -27,8 +24,6 @@ const multiplesOperations = (number) => {
     const result = convertString[i];
     reverseNumbers += result;
   }
-
-  console.log("Numeros invertidos:", Number(reverseNumbers));
 
   const suma = firstDigit + secondDigit;
   const resta = firstDigit - secondDigit;

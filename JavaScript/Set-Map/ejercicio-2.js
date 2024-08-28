@@ -12,32 +12,31 @@ ciudades.set("Madrid", 14);
 ciudades.set("Singapur", 26);
 ciudades.set("Buenos Aires", 23);
 
-const ciudadMasCaliente = (map) => {
-  let cuidad = "";
+function encontrarCiudadMasCaliente(ciudades) {
+  let ciudadConTemperaturaMasAlta = "";
 
-  const temperaturas = [...map.values()];
-
+  const temperaturas = [...ciudades.values()];
   const temperaturaMasAlta = Math.max(...temperaturas);
 
-  map.forEach((value, key) => {
-    if (value === temperaturaMasAlta) {
-      cuidad = key;
+  ciudades.forEach((temperatura, ciudad) => {
+    if (temperatura === temperaturaMasAlta) {
+      ciudadConTemperaturaMasAlta = ciudad;
     }
   });
 
-  return cuidad;
-};
+  return ciudadConTemperaturaMasAlta;
+}
 
-console.log(ciudadMasCaliente(ciudades));
+console.log(encontrarCiudadMasCaliente(ciudades));
 
-// Segunda forma de resolver el ejercicio 🤔
+// Segunda forma de resolver el ejercicio ✅
 function ciudadMasCaliente(map) {
   const temperaturas = [...map.values()];
   const temperaturaMasAlta = Math.max(...temperaturas);
 
   const cuidadYTemperatura = [...map.entries()];
   const encontrarTemperatura = cuidadYTemperatura.find(
-    ([cuidad, temperatura]) => temperatura === temperaturaMasAlta
+    ([_, temperatura]) => temperatura === temperaturaMasAlta
   );
 
   return encontrarTemperatura.at();

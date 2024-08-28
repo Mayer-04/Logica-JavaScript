@@ -3,14 +3,16 @@ Define dos sets con algunos elementos comunes y crea una función que tome estos
 y devuelva un nuevo set que contenga solo los elementos que están presentes en ambos sets. 
 */
 
-function interseccionSet(set1, set2) {
-  const nuevoSet = new Set();
-  for (const elementos of set1) {
-    if (set2.has(elementos)) {
-      nuevoSet.add(elementos);
+function getIntersection(setA, setB) {
+  const intersection = new Set();
+  for (const element of setA) {
+    if (setB.has(element)) {
+      intersection.add(element);
     }
   }
-  return nuevoSet;
+  return intersection;
+
+  // return new Set([...setA].filter(element => setB.has(element)));
 }
 
 const primerSet = new Set(["🦊", "🫎", "🐺"]);

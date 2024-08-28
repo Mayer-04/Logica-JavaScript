@@ -1,4 +1,4 @@
-//  Escribe un !Hola Mundo! en JavaScript
+// Escribe un !Hola Mundo! en JavaScript
 
 console.log("!Hola Mundo!");
 

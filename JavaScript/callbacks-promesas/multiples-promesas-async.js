@@ -1,4 +1,5 @@
-/* Crea tres promesas:
+/* 
+Crea tres promesas:
 
 La primera promesa (promise1) debe resolverse después de 1 segundo con el mensaje "Primera promesa resuelta".
 La segunda promesa (promise2) debe resolverse después de 1.5 segundos con el mensaje "Segunda promesa rechazada".

@@ -1,6 +1,8 @@
-/* Escribe una función que tome una cadena y una palabra clave como entrada. 
+/* 
+Escribe una función que tome una cadena y una palabra clave como entrada. 
 La función debería devolver un booleano que indique si la palabra clave aparece en la cadena. 
-Asegúrate de que la búsqueda no distinga entre mayúsculas y minúsculas. */
+Asegúrate de que la búsqueda no distinga entre mayúsculas y minúsculas. 
+*/
 
 function palabraClave(cadena, clave) {
   const cadenaMinuscula = cadena.toLowerCase();

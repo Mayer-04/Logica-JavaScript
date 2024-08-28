@@ -1,7 +1,9 @@
-/* Encuentra la palabra más larga en una cadena
+/* 
+Encuentra la palabra más larga en una cadena.
 Devuelve la longitud de la palabra más larga en la oración proporcionada.
 
-Tu respuesta debe ser un número. */
+Tu respuesta debe ser un número. 
+*/
 
 const cadenaMasLarga = function (cadena) {
   const convertir = cadena.split(" ");

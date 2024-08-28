@@ -4,22 +4,29 @@
  * @returns {object}
  */
 
-const listNumbers = function (list) {
-  let ceros = [];
-  let positivos = [];
-  let negativos = [];
+const listNumbers = function (numbersList) {
+  const zeros = [];
+  const positives = [];
+  const negatives = [];
 
-  for (let number of list) {
+  for (const number of numbersList) {
     if (number === 0) {
-      ceros.push(number);
+      zeros.push(number);
     } else if (number > 0) {
-      positivos.push(number);
+      positives.push(number);
     } else if (number < 0) {
-      negativos.push(number);
+      negatives.push(number);
     }
   }
 
-  return { ceros, positivos, negativos };
+  return { zeros, positives, negatives };
+
+  // const result = {
+  //   zeros: numbersList.filter((number) => number === 0),
+  //   positives: numbersList.filter((number) => number > 0),
+  //   negatives: numbersList.filter((number) => number < 0),
+  // };
+  // return result;
 };
 
 const numeros = [0, 1, 2, 3, 4, 5, 6, -1, -2];

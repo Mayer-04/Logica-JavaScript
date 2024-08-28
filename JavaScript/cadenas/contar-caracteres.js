@@ -1,4 +1,5 @@
-/* Escribe una función que tome una cadena de texto y un carácter específico, 
+/* 
+Escribe una función que tome una cadena de texto y un carácter específico, 
 y devuelva el número de veces que ese carácter aparece en la cadena. 
 */
 
