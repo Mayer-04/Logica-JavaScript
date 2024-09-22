@@ -1,4 +1,4 @@
-import { recuperarItem } from "../javascript/elemento-aleatorio.js";
+import { recuperarItem } from "@js/elemento-aleatorio.js";
 import { describe, expect, it } from "vitest";
 
 describe("Recuperar un elemento aleatorio de un array", () => {

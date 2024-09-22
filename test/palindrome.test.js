@@ -1,4 +1,4 @@
-import { isPalindrome } from "../javascript/palindrome.js";
+import { isPalindrome } from "@js/palindrome.js";
 import { describe, test, expect } from "vitest";
 
 describe("Determinar si una palabra o frase es un palíndromo", () => {

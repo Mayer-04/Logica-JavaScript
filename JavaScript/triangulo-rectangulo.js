@@ -6,8 +6,8 @@ El usuario debe ingresar la longitud de los dos catetos y el programa debe mostr
 //TODO: Validaciones pendientes
 export const trianguloRectangulo = function (b, a) {
   const areaTriangulo = (b * a) / 2;
-  const mensaje = `El área del triángulo rectángulo es: ${areaTriangulo}`;
-  return mensaje;
+  // const mensaje = `El área del triángulo rectángulo es: ${areaTriangulo}`;
+  return areaTriangulo;
 };
 
-trianguloRectangulo(5, 6); // La área del triángulo rectángulo es: 15
+console.log(trianguloRectangulo(5, 6)); // La área del triángulo rectángulo es: 15
