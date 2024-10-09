@@ -6,8 +6,8 @@ Sin utilizar new Set().
 
 /**
  *
- * @param {Array<string>} arr
- * @returns {Array<string>}
+ * @param {string[]} arr
+ * @returns {string[]}
  */
 
 function elementosDuplicados(arr) {
@@ -20,6 +20,29 @@ function elementosDuplicados(arr) {
   return duplicados;
 }
 
+function elementosDuplicados2(arr) {
+  const hash = {};
+  const noDuplicados = [];
+  for (let i = 0; i < arr.length; i++) {
+    const elemento = arr[i];
+    if (!hash[elemento]) {
+      hash[elemento] = true;
+      noDuplicados.push(elemento);
+    }
+  }
+  return noDuplicados;
+}
+
+function eliminateDuplicates(arr) {
+  const uniqueElements = [];
+  for (const element of arr) {
+    if (!uniqueElements.includes(element)) {
+      uniqueElements.push(element);
+    }
+  }
+  return uniqueElements;
+}
+
 // Ejemplo de uso ✅
 const nombres = [
   "Andres",
@@ -30,4 +53,5 @@ const nombres = [
   "Juan",
   "Sofia",
 ];
+
 console.log(elementosDuplicados(nombres));

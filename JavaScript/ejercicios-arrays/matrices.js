@@ -12,12 +12,12 @@ const matrix = [
 ]
 */
 
-function findJavaScript(matrix) {
+function findJavaScript(matriz) {
   let arrJavaScript = [];
   let fila = -1;
   let columna = -1;
 
-  matrix.forEach((matri, indexFila) => {
+  matriz.forEach((matri, indexFila) => {
     matri.forEach((elem, indexColum) => {
       if (elem === "JavaScript") {
         fila = indexFila;
@@ -33,10 +33,10 @@ function findJavaScript(matrix) {
 }
 
 // Segunda manera de realizar el ejercicio 😁
-const findJavaScript = function (matrix) {
-  for (let i = 0; i < matrix.length; i++) {
-    for (let j = 0; j < matrix[i].length; j++) {
-      if (matrix[i][j] === "JavaScript") {
+const findJavaScript = function (matriz) {
+  for (let i = 0; i < matriz.length; i++) {
+    for (let j = 0; j < matriz[i].length; j++) {
+      if (matriz[i][j] === "JavaScript") {
         return [i, j];
       }
     }
