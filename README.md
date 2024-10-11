@@ -1,12 +1,12 @@
 # Ejercicios Lógica-JavaScript 😁
 
-Este repositorio contiene una colección de ejercicios diseñados para mejorar tus habilidades de programación lógica utilizando JavaScript y Node.js.
+Este repositorio contiene una colección de ejercicios diseñados para mejorar tus habilidades de programación lógica utilizando **JavaScript** y **Node.js**.
 
 ## Descripción
 
 Los ejercicios abarcan una amplia gama de temas, desde conceptos básicos hasta desafíos avanzados, y están diseñados para ayudar a mejorar las habilidades en la resolución de problemas y la implementación de algoritmos en JavaScript.
 
-## Ejercicios:
+## Ejercicios
 
 1. Estructuras de control (if, else)
 2. Bucles (for, while)
@@ -22,19 +22,19 @@ Los ejercicios abarcan una amplia gama de temas, desde conceptos básicos hasta 
 
 ## Instalación y Uso
 
-- Clonar el repositorio:
+1. Clonar el repositorio:
 
 ```bash
 git clone https://github.com/Mayer-04/Logica-JavaScript.git
 ```
 
-- Instalar dependencias:
+2. Instalar dependencias:
 
 ```bash
 pnpm install
 ```
 
-- Ejecutar los tests:
+3. Ejecutar los tests:
 
 ```bash
 pnpm test
